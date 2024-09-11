@@ -16,7 +16,7 @@ import nextIcon from '../UI/images/icon-next.svg';
 // Import Tailwind CSS
 import '../App.css'; 
 
-function Slider() {
+function TestimonialSlider() {
   const testimonials = [
     {
       text: '“ I’ve been interested in coding for a while but never taken the jump, until now. I couldn’t recommend this course enough. I’m now in the job of my dreams and so excited about the future. ”',
@@ -103,4 +103,111 @@ function Slider() {
   );
 }
 
-export default Slider;
+export default TestimonialSlider;
+
+
+//!
+
+// import React from "react";
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import { Navigation, Pagination } from "swiper/modules";
+// import "swiper/css";
+// import "swiper/css/navigation";
+// import "swiper/css/pagination";
+// import { RiArrowLeftSLine, RiArrowRightSLine } from "react-icons/ri";
+// import dummy1 from '../Images/dummy1.png'
+// import dummy2 from '../Images/dummy2.png'
+
+
+// const testimonials = [
+//   {
+//     img:dummy2,
+//     name: "Tanisha Rajput",
+//     title: "Web Developer",
+//     content: "I would like to thank BAOIAM and its mentors for the guidance which was given to me throughout my journey as a trainee in Web Development. They helped me in learning with ease which eventually landed me a job for a package of 12 LPA. I will always be grateful to BAOIAM for such an amazing opportunity.",
+//   },
+//   {
+//     img:dummy1,
+//     name: "Prince Raj",
+//     title: "HR Generalist",
+//     content: "I started my training at BAOIAM as a HR. With all the essential training and knowledge from my mentors, I landed a job for 12 LPA. Cannot thank enough for all the time and energy that BAOIAM and its mentors has invested in me. They truly helped me in getting the most suitable job opportunity.",
+//   },
+//   {
+//     img:dummy1,
+//     name: "Vijay Poranki",
+//     title: "Product Manager",
+//     content: " trained with BAOIAM as a Product Management and it was due to their immense support and guidance, that I subsequently landed a job with 14 LPA. I extend my sincere gratitude to all my mentors and trainers for helping me out in shaping my life.",
+//   },
+//   {
+//     img:dummy2,
+//     name: "Rituraj Datta",
+//     title: "Data Analyst",
+//     content: "I would like to thank BAOIAM and its mentors for the guidance which was given to me throughout my journey as a trainee as a Data Analytics. They helped me in learning with ease which eventually landed me a job for a package of 11 LPA. I will always be grateful to BAOIAM for such an amazing opportunity.",
+//   },
+//   {
+//     img:dummy1,
+//     name: "Shubham Daiya",
+//     title: "Android Developer",
+//     content: "Started training in BAOIAM and got placed as a Android Developer with a package of 14 LPA. I would like to show my heartly gratitude to BAOIAM and its trainers for helping me out in building me career.",
+//   },
+//   {
+//     img:dummy1,
+//     name: "Preetika Rawat",
+//     title: "Digital Marketer",
+//     content: "I started my training at BAOIAM. With all the essential training and knowledge from my mentors, I landed a job for 13 LPA. Cannot thank enough for all the time and energy that BAOIAM and its mentors has invested in me. They truly helped me in getting the most suitable job opportunity.",
+//   },
+//   {
+//     img:dummy1,
+//     name: "Shubham Daiya",
+//     title: "Android Developer",
+//     content: "Started training in BAOIAM and got placed as a Android Developer with a package of 14 LPA. I would like to show my heartly gratitude to BAOIAM and its trainers for helping me out in building me career.",
+//   },
+//   {
+//     img:dummy1,
+//     name: "Harsha Khirwadkar",
+//     title: "Graphic Designer",
+//     content: "I would like to thank BAOIAM and its mentors for the guidance which was given to me throughout my journey as a trainee. They helped me in learning with ease which eventually landed me a job for a package of 10 LPA. I will always be grateful to BAOIAM for such an amazing opportunity.",
+//   },
+//   {
+//     img:dummy1,
+//     name: "Pracheta Bhanjachowdhuri",
+//     title: "UI/UX Designer",
+//     content: "I trained with BAOIAM as a UI/UX Designer and it was due to their immense support and guidance, that I subsequently landed a job with 14 LPA. I extend my sincere gratitude to all my mentors and trainers for helping me out in shaping my life.",
+//   },
+
+// ];
+
+// const TestimonialSlider = () => {
+//   return (
+//      <div className="relative w-full px-10">
+//       <Swiper
+//         navigation={{
+//           prevEl: '.swiper-button-prev',
+//           nextEl: '.swiper-button-next',
+//         }}
+//         // pagination={{ clickable: true }}
+//         modules={[Navigation, Pagination]}
+//         spaceBetween={25}
+//         slidesPerView={3}
+//       >
+//         {testimonials.map((testimonial, index) => (
+//           <SwiperSlide key={index}>
+//             <div className="border border-orange-600 shadow-xl rounded-2xl text-center mt-10 px-10 flex flex-col py-10 w-full h-96">
+//               <img className="w-24 h-24 mx-auto rounded-full object-cover" src={testimonial.img} alt="Student img" />
+//               <h3 className="text-xl text-gray-700 font-bold mt-4">{testimonial.name}</h3>
+//               <p className="text-gray-500">{testimonial.title}</p>
+//               <p className="mt-2 text-gray-500">{testimonial.content}</p>
+//             </div>
+//           </SwiperSlide>
+//         ))}
+//       </Swiper>
+
+//         <div className="swiper-button-prev bg-orange-400 rounded-full p-7" > </div>
+//         <div className="swiper-button-next bg-orange-400 rounded-full p-7" ></div>
+      
+//     </div>
+//   );
+// };
+
+// export default TestimonialSlider;
+

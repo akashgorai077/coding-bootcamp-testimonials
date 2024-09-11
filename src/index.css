@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-body {
+/* body {
   font-family: 'Inter', sans-serif;
   font: -32px;
   color:hsl(240, 18%, 77%)
@@ -11,4 +11,22 @@ body {
 
 .swiper-slide {
   transition: transform 0.3s ease;
-} 
+}  */
+/* .swiper-button-prev {
+  background-color: white;
+  padding: 8px 16px;
+  border-radius: 100%;
+  border: 2px solid black;
+  color: red;
+}
+.swiper-pagination-bullet{
+  width: 40px;
+  height: 40px;
+  background-color: red;
+}
+.swiper-button-next{
+  color: white;
+  size: 3px;
+  background: black;
+
+} */

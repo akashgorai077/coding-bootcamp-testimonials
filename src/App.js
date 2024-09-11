@@ -1,10 +1,10 @@
 import React from 'react'
-import Slider from './Components/Slider'
+import TestimonialSlider from './Components/Slider'
 
 const App = () => {
   return (
     <div>
-      <Slider/>
+      <TestimonialSlider/>
     </div>
   )
 }

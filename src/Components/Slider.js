@@ -94,7 +94,7 @@ function TestimonialSlider() {
               {/* Buttons */}
               <div className='bg-white py-4 px-9 rounded-full flex relative bottom-72 sm:bottom-56 lg:bottom-80 xl:top-11 xl:left-96'>
          <img className="swiper-button-prev size-3 absolute top-8" src={prevIcon} alt="" />
-          <img className="swiper-button-next size-3 absolute top-8 " src={nextIcon} alt="" /></div>
+          <img className="swiper-button-next size-3 absolute top-9 " src={nextIcon} alt="" /></div>
             </div>
           </SwiperSlide>
         ))}
